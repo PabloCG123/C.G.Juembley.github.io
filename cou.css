@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.letra1{
+    font-family: 'Krona One', sans-serif !important;
+}
+.letra2{
+    font-family: 'Krona One', sans-serif;
+}
+.letra3{
+    font-family: 'Permanent Marker', cursive;
+}
+.bg-dark{
+    background-color: rgb(0,0,0) !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.letra1{
+    font-size: 45px !important; 
+}
+
+.arriba{
+    margin-top: 70px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-item{
+    margin: 0 15px;
+}
+
+.container{
+    position: center;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.arriba{
+    position: relative;
+}
+
+
+
+.badge-light{
+    padding: 10 10 10 10;
+    font-size: 38px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 200px;
+}
+.badge-light:hover{
+    margin-bottom: 205px;
+    background-color: rgb(255, 255, 255)!important;
+    color: black!important;
+    transition: 0.5s;
+}
+
+.badge-dark{
+    padding: 10 10 10 10;
+    font-size: 28px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50px;
+}
+.badge-dark:hover{
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255)!important;
+    color: black!important;
+    transition: 0.5s;
+}
+
+.badge-info{
+    padding: 10 10 10 10;
+    font-size: 28px;
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.badge-info:hover{
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255)!important;
+    color: black!important;
+    transition: 0.5s;
+}
+
+
+
+
+
+.title-underline{
+    position: relative;
+    color: #000000;
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    padding-top: 30px; 
+}
+.title-underline span{
+    display: inline block;
+    border-bottom: 8px solid rgb(0, 255, 98);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+
+.title-left{
+    color: #ffffff;
+    float: right;
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 50px;
+    position: relative;
+    margin-top: 200px;
+}
+.title-left span{
+    display: inline block;
+    border-bottom: 8px solid rgb(0, 255, 98);
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+
+
+.imagen{
+    width: 100%;
+    height: 700px;
+    background: -webkit-linear-gradient(to right, rgba(0, 0, 0, .3),  rgba(0, 0, 0, .3)), url(IMG/11.jpg);   
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  rgba(0, 0, 0, .3),  rgba(0, 0, 0, .3)), url(IMG/11.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* ESTA CONDICION PONE A LA IMAJEN EN UNA ADACTACION ADECUADA PARA LA PAGINA*/
+    background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+
+
+.formulario{
+    float: right;
+    margin-right: 180px;
+    width: 40em;
+}
+
+
+.title-right{
+    color: #000000;
+    float: left;
+    font-size: 46px;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.title-right span{
+    display: inline block;
+    border-bottom: 8px solid rgb(0, 255, 98);
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+
+
+
+.datos{
+    background-color: #152738;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.sesgoarriba {
+    z-index: 10;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-width: 34vh 99vw 0 0;
+    border-style: solid;
+    border-color: rgb(255, 255, 255) transparent transparent transparent;
+}
+
+
+
+
+
+
+
+.title-right2{
+    color: #000000;
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+.title-right2 span{
+    display: inline block;
+    border-bottom: 8px solid rgb(0, 255, 98);
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+
+
+
+.title-right3{
+    color: #000000;
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 20px;
+}
+.title-right3 span{
+    display: inline block;
+    border-bottom: 8px solid rgb(0, 255, 98);
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .galeria {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+    }
+    
+    .imagenes {
+        width: 20%;
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .imagenes img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .sesgoabajo {
+        z-index: 10;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-width: 0 0 35vh 99vw;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+    }
+
+    .sesgoarribaa{
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-width: 34vh 99vw 0 0;
+        border-style: solid;
+        border-color: rgb(255, 255, 255) transparent transparent transparent;
+    }
+
+
+.fin{
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+}
+
+.shadow:hover{
+    margin-top: 20px;
+    background:#ffffff !important;
+    transition: 0.5s !important;
+    transform: 1s !important;
+}
+
+.negritas{
+    font-size: 24px;
+
+}
